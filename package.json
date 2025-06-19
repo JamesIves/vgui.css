@@ -2,7 +2,6 @@
   "name": "vgui.css",
   "version": "1.0.0",
   "description": "CSS Classic Green VGUI Skin from early Steam and Goldsource games, with a black variant.",
-  "main": "dist/greensteam.css",
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && node build.js"
