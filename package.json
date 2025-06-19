@@ -1,0 +1,28 @@
+{
+  "name": "vgui.css",
+  "version": "1.0.0",
+  "description": "CSS Classic Green VGUI Skin from early Steam and Goldsource games, with a black variant.",
+  "main": "dist/greensteam.css",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlpyneDreams/vgui.css.git"
+  },
+  "author": "Jeffrey Ellison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlpyneDreams/vgui.css/issues"
+  },
+  "homepage": "https://github.com/AlpyneDreams/vgui.css#readme",
+  "devDependencies": {
+    "less": "^4.3.0",
+    "rimraf": "^6.0.1"
+  },
+  "files": [
+    "dist/greensteam.css",
+    "dist/blacksteam.css"
+  ]
+}
