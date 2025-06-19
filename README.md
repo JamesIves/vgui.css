@@ -14,18 +14,21 @@ To edit the styles, use [`lessc`](http://lesscss.org/usage/) on specific files o
 - [Black Steam Demo](https://alpynedreams.github.io/vgui.css/demo_blacksteam)
 
 ## Greensteam
+
 ```html
-<link rel=stylesheet type=text/css href="/styles/greensteam/greensteam.css">
+<link rel=stylesheet type=text/css href="/dist/greensteam.css">
 ```
+
 Screenshots: (click to view)
 
 <img src="https://raw.githubusercontent.com/AlpyneDreams/vgui.css/master/screenshots/greensteam1.png" width="300"> <img src="https://raw.githubusercontent.com/AlpyneDreams/vgui.css/master/screenshots/greensteam2.png" width="300">
 
-
 ## Blacksteam
+
 ```html
-<link rel=stylesheet type=text/css href="/styles/blacksteam/blacksteam.css">
+<link rel=stylesheet type=text/css href="/dist/blacksteam.css">
 ```
+
 Screenshots: (click to view)
 
 <img src="https://raw.githubusercontent.com/AlpyneDreams/vgui.css/master/screenshots/blacksteam1.png" width="300"> <img src="https://raw.githubusercontent.com/AlpyneDreams/vgui.css/master/screenshots/blacksteam2.png" width="300">
