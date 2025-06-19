@@ -33,7 +33,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add package.json package-lock.json || true
           git commit -m "chore: bump version to match release ${{ github.ref_name }}" || echo "No changes to commit"
-          git push || echo "No changes to push"
+          git push origin HEAD:main || echo "No changes to push"
 
       - run: npm publish --access public
         if: github.event_name == 'release'
